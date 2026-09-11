@@ -1,0 +1,35 @@
+# Java / Spring Boot (backend)
+backend/target/
+backend/.mvn/
+backend/*.iml
+backend/.classpath
+backend/.project
+backend/.settings/
+*.class
+*.jar
+!.mvn/wrapper/*.jar
+
+# Node / React (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# H2 database files (local dev)
+*.mv.db
+*.trace.db
